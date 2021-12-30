@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "rm -rf dist && webpack",
+    "build": "rm -rf dist && webpack"
   },
   "dependencies": {
     "mockjs": "^1.1.0",
