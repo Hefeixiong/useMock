@@ -6,9 +6,15 @@
     "start": "webpack-dev-server",
     "build": "rm -rf dist && webpack"
   },
+  "license": "ISC",
   "dependencies": {
-    "mockjs": "^1.1.0",
-    "webpack": "4",
-    "webpack-cli": "3"
+    "mockjs": "^1.1.0"
+  },
+  "devDependencies": {
+    "@webpack-cli/serve": "^1.6.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }
